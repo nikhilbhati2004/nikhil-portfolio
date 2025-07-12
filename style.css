@@ -1,12 +1,13 @@
 :root {
-    --bg-color: #121212;
-    --primary-color: #ff6f00;
-    --text-color: #f0f0f0;
-    --card-bg: #1e1e1e;
-    --btn-bg: #6a0dad;
-    --btn-hover: #8533ff;
-    --outline-border: #6a0dad;
+  --bg-color: #121212;         
+  --primary-color: #ff6f00;    
+  --text-color: #f0f0f0;        
+  --card-bg: #1e1e1e;           
+  --btn-bg: #ff6f00;            
+  --btn-hover: #ffa040;         
+  --outline-border: #ff6f00;    
 }
+
 
 * {
     margin: 0px;
