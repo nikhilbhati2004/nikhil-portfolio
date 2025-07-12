@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nikhil Bhati | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Nikhil Bhati</div>
+    <ul class="nav-links">
+      <li><a href="#about" onclick="closeMenu()">About</a></li>
+      <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+      <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#projects" onclick="closeMenu()">Projects</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+  </div>
+
+  <header class="hero">
+    <h1>Hey, I'm Nikhil Bhati 👋</h1>
+    <p>I’m a front-end developer building responsive, interactive websites using HTML, CSS, JavaScript, and React.</p>
+    <div class="buttons">
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="#contact" class="btn-outline">Contact Me</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>B.Com graduate passionate about building web experiences. Currently focused on front-end technologies and React.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>BeautyByte (Service Booking Website)</h3>
+      <p>A responsive beauty service booking site using HTML, CSS, JavaScript & jQuery.</p>
+      <a href="https://nikhilbhati2004.github.io/BeautyByte/" target="_blank">Live Demo</a> |
+      <a href="https://github.com/nikhilbhati2004/BeautyByte" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:nikhilgurjar0034@gmail.com">nikhilgurjar0034@gmail.com</a></p>
+    <p>Phone: <a href="tel:+917983971044">+91 7983971044</a></p>
+    <p>GitHub: <a href="https://github.com/nikhilbhati2004" target="_blank">github.com/nikhilbhati2004</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/nikhil-bhati-770779306" target="_blank">linkedin.com/in/nikhil-bhati-770779306</a></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
